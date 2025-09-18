@@ -1,18 +1,18 @@
 import { useState } from "react";
+import { LoadPage } from "./components/LoadPage";
 import { Page } from "./components/Page/Page";
 import { AppStyled } from "./styled";
-import { LoadPage } from "./components/LoadPage";
 
 import {
-  StartPage,
-  MapPage,
-  InfoPage,
-  FinalPage,
   AdditionalPage,
+  FinalPage,
+  InfoPage,
+  MapPage,
+  StartPage,
 } from "./components/Pages";
 
-import Image from "./images/background.jpeg";
-import Photo from "./images/photo.jpg";
+import Image from "./images/background-image.png";
+import Photo from "./images/родители.jpg";
 
 const pages = [
   { img: Image, content: <StartPage /> },

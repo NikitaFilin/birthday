@@ -1,11 +1,11 @@
 import React from "react";
-import { WrapperPage } from "./styled";
 import { Parallax } from "react-parallax";
+import { WrapperPage } from "./styled";
 import { parseImgPath } from "./utils";
 
 import "./index.css";
 
-const IMAGE_LAST_NAME = "photo";
+const IMAGE_LAST_NAME = "background-image";
 
 export const Page: React.FC<{
   page: { img?: string; content: JSX.Element };

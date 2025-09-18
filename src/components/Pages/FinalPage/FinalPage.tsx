@@ -5,7 +5,7 @@ export const FinalPage = () => {
   return (
     <Container>
       <Wrapper>
-        <Subtitle style={{ fontSize: "40px" }}>Ваша Екатерина</Subtitle>
+        <Subtitle style={{ fontSize: "32px" }}>Дмитрий и Светлана</Subtitle>
       </Wrapper>
     </Container>
   );

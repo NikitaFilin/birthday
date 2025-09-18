@@ -11,7 +11,7 @@ export const MapPage: React.FC = () => {
       <Wrapper>
         <GoogleMap />
         <div>
-          <a href="https://yandex.ru/maps/-/CDwuNNYE">Открыть в Я.Картах</a>
+          <a href="https://yandex.ru/maps/-/CLeeEUn2">Открыть в Я.Картах</a>
         </div>
       </Wrapper>
     </PageContainer>

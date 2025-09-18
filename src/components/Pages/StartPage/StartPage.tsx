@@ -7,12 +7,13 @@ export const StartPage = () => {
       <Wrapper>
         <Title>Дорогие друзья!</Title>
         <Subtitle>
-          Я с огромным удовольствием приглашаю вас на праздник в честь
+          Мы с огромным удовольствием приглашаем вас на праздник в честь
         </Subtitle>
         <Subtitle>
-          моего <span style={{ fontSize: "40px", color: "#e7af3e" }}>45</span>
+          <span style={{ fontSize: "40px", color: "#36827F" }}>20</span>
           -летия
         </Subtitle>
+        <Subtitle>нашей свадьбы</Subtitle>
       </Wrapper>
     </PageContainer>
   );

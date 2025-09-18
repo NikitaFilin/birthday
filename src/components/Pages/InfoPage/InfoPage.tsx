@@ -1,16 +1,13 @@
-import { useState } from "react";
-import {
-  ActionsWrapper,
-  ButtonStyled,
-  Description,
-  PageContainer,
-  Subtitle,
-  Title,
-} from "../styled";
+import { PageContainer, Subtitle, Title } from "../styled";
 
 export const InfoPage = () => (
   <PageContainer>
-    <Title>21 сентября 2024 в 16:00</Title>
-    <Subtitle>Место проведения - кафе «TAUS» пос. Редкино</Subtitle>
+    <Title>20 сентября 2025 в 17:00</Title>
+    <Subtitle>
+      Место проведения -{" "}
+      <span style={{ fontSize: "32px", color: "#36827F" }}>
+        Mansard restaurant and hall
+      </span>
+    </Subtitle>
   </PageContainer>
 );

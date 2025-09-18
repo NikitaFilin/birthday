@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { device } from "../../utils";
 
 const fonts = {
   // fix
@@ -8,9 +7,9 @@ const fonts = {
 };
 
 const colors = {
-  primary: "#e7af3e",
-  secondary: "#42100d",
-  tertiary: "#f3dcb3",
+  primary: "#262626",
+  secondary: "#333333",
+  tertiary: "#FFD6E0",
 };
 
 export const PageContainer = styled.div({
